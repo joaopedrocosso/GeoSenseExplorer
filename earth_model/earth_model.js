@@ -195,7 +195,7 @@ function animate() {
 
 
   if (rotateEarth) {
-    sphere.rotation.y += 0.0001;
+    sphere.rotation.y += 0.0000;
   }
 
   if (previousPoint) {

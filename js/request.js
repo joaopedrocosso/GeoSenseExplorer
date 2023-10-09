@@ -1,8 +1,3 @@
-// Sending and receiving data in JSON format using POST method
-//
-
-//Pegar dados do HTML e passar pra função abaixo
-
 function postRequestLatLon(lat, lon) {
     var xhr = new XMLHttpRequest();
     var url = "https://nasa-api-sij3k2u3xa-rj.a.run.app/nasa/writeTif";
@@ -18,5 +13,3 @@ function postRequestLatLon(lat, lon) {
     xhr.send(data);
 }
 
-//Chamar a função no front, num event OnClick ou algo do tipo
-//postRequestLatLon(lat,lon)
