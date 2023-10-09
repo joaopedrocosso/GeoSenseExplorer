@@ -280,3 +280,19 @@ input:valid + .labelline{
 .accordion-width {
   display: none; 
 }
+
+@media only screen and (max-width: 600px) {
+  .flex{
+      flex-direction: column;
+  }
+  .three{
+      width: 100%;
+      height: 100%;
+      order: -1; /* Isso fará com que o modelo 3D apareça primeiro */
+  }
+  .conteudo{
+      width: 100%;
+      height: 100%;
+  }
+}
+
